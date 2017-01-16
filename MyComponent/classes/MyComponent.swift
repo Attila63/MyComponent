@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MyComponent: NSObject {
+public class MyComponent: NSObject {
 
     func test(name: String) -> Bool {
         print (name)
