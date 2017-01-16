@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        if Component().test(name: "test") {
+        if Component().test("test") {
             print ("Ok")
         }
         else {

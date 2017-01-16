@@ -8,9 +8,9 @@
 
 import UIKit
 
-public class Component: NSObject {
+open class Component: NSObject {
 
-    public func test(name: String) -> Bool {
+    open func test(_ name: String) -> Bool {
         print (name)
         return true
     }
