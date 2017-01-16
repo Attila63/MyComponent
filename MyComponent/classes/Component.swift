@@ -10,7 +10,7 @@ import UIKit
 
 public class Component: NSObject {
 
-    func test(name: String) -> Bool {
+    public func test(name: String) -> Bool {
         print (name)
         return true
     }
