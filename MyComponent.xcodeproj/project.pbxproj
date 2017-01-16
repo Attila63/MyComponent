@@ -12,7 +12,7 @@
 		E86597D71E2CD5B900460584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86597D51E2CD5B900460584 /* Main.storyboard */; };
 		E86597D91E2CD5B900460584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86597D81E2CD5B900460584 /* Assets.xcassets */; };
 		E86597DC1E2CD5B900460584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86597DA1E2CD5B900460584 /* LaunchScreen.storyboard */; };
-		E86597E41E2CD72300460584 /* MyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86597E31E2CD72300460584 /* MyComponent.swift */; };
+		E86597E41E2CD72300460584 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86597E31E2CD72300460584 /* Component.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		E86597D81E2CD5B900460584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E86597DB1E2CD5B900460584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E86597DD1E2CD5B900460584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E86597E31E2CD72300460584 /* MyComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyComponent.swift; path = classes/MyComponent.swift; sourceTree = "<group>"; };
+		E86597E31E2CD72300460584 /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Component.swift; path = classes/Component.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		E86597E51E2CFB2500460584 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				E86597E31E2CD72300460584 /* MyComponent.swift */,
+				E86597E31E2CD72300460584 /* Component.swift */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E86597D41E2CD5B900460584 /* ViewController.swift in Sources */,
-				E86597E41E2CD72300460584 /* MyComponent.swift in Sources */,
+				E86597E41E2CD72300460584 /* Component.swift in Sources */,
 				E86597D21E2CD5B900460584 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
