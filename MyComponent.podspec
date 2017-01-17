@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MyComponent"
-  s.version      = "4.0.1"
+  s.version      = "4.0.2"
   s.summary      = "Test description of MyComponent."
   s.description  = "test bla bla bla   sdfasdf as df as d fa s df a sfd a s df as df a "
 
