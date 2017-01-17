@@ -14,4 +14,8 @@ open class Component: NSObject {
         print ("version 3.0 \(name)")
         return true
     }
+    
+    open func foo() {
+        print ("foo - implemented")
+    }
 }
