@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
-  s.source       = { :git => "https://github.com/Attila63/MyComponent.git", :tag => s.version.to_s }
+  s.source = { :git => "https://github.com/Attila63/MyComponent.git", :tag => s.version.to_s }
   s.source_files  = "MyComponent/classes", "MyComponent/classes/**/*.{h,m,swift}"
   s.exclude_files = "MyComponent/classes/exclude"
   # s.public_header_files = "Classes/**/*.h"
@@ -35,6 +35,6 @@ Pod::Spec.new do |s|
   # s.libraries = "iconv", "xml2"
   # s.requires_arc = true
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "JSONKit", "~> 1.4"
 
 end
